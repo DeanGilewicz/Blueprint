@@ -1,3 +1,28 @@
 /* FONT */
 
 $font: 'Lato', sans-serif;
+$color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
+
+// @mixin boxText {
+//   font-family: $font;
+//   color: $color1;
+// }
+
+// .boxTop {
+//   @include boxText;
+// }
+
+.container {
+  width: 500px;
+}
+
+
+.boxTop {
+  float: right;
+  background-color: hsla(199, 92%, 62%, 1);
+}
+
+.boxBottom {
+  float: right;
+  background-color: hsla(199, 92%, 62%, 1);
+}

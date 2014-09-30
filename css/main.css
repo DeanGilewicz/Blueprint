@@ -1,3 +1,13 @@
 /* FONT */
+.container {
+  width: 500px; }
+
+.boxTop {
+  float: right;
+  background-color: #45bff7; }
+
+.boxBottom {
+  float: right;
+  background-color: #45bff7; }
 
 /*# sourceMappingURL=main.css.map */
