@@ -13,12 +13,48 @@ $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
 // }
 
 .container {
-  width: 500px;
+  width: 800px;
+}
+
+.timeCon {
+  float: left;
+  width: 200px;
+}
+
+.timestamp {
+  float: left;
+  display: inline-block;
+}
+
+.timeline {
+  float: right;
+}
+
+.imgBox {
+  background-color: hsla(197, 100%, 44%, 1);
+  border-radius: 25px;
+  padding: 4px 4px 4px 4px;
+  text-align: center;
+  border: 8px solid hsla(202, 96%, 81%, 1);
+
+  img {
+    width: 60%;
+  }
 }
 
 
-.boxTop {
+
+.line {
+  background-color: hsla(202, 98%, 81%, 1);
+  padding: 100px 0px;
+}
+
+.boxCon {
   float: right;
+  width: 600px;
+}
+
+.boxTop {
   background-color: hsla(199, 92%, 62%, 1);
 }
 

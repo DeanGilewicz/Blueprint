@@ -1,9 +1,36 @@
 /* FONT */
 .container {
-  width: 500px; }
+  width: 800px; }
+
+.timeCon {
+  float: left;
+  width: 200px; }
+
+.timestamp {
+  float: left;
+  display: inline-block; }
+
+.timeline {
+  float: right; }
+
+.imgBox {
+  background-color: #00a1e0;
+  border-radius: 25px;
+  padding: 4px 4px 4px 4px;
+  text-align: center;
+  border: 8px solid #a0dbfd; }
+  .imgBox img {
+    width: 60%; }
+
+.line {
+  background-color: #9fdbfe;
+  padding: 100px 0px; }
+
+.boxCon {
+  float: right;
+  width: 600px; }
 
 .boxTop {
-  float: right;
   background-color: #45bff7; }
 
 .boxBottom {
