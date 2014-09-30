@@ -23,7 +23,20 @@ $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
 
 .timestamp {
   float: left;
-  display: inline-block;
+  width: 20px;
+}
+
+.timestamp span {
+  color: hsla(202, 33%, 78%, 1);
+  font-size: 10px;
+}
+
+.timestamp time {
+  color: hsla(199, 92%, 62%, 1);
+}
+
+.timestamp time:nth-child(2) {
+  color: hsla(202, 100%, 40%, 1);
 }
 
 .timeline {
@@ -42,11 +55,9 @@ $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
   }
 }
 
-
-
 .line {
   background-color: hsla(202, 98%, 81%, 1);
-  padding: 100px 0px;
+  padding: 50px 1px 50px 1px;
 }
 
 .boxCon {
