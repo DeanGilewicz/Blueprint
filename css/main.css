@@ -6,44 +6,29 @@
   float: left;
   width: 200px; }
 
-.timestamp {
+.boxLeft1 {
   float: left;
-  width: 20px; }
-
-.timestamp span {
-  color: #b4ccd9;
-  font-size: 10px; }
-
-.timestamp time {
-  color: #45bff7; }
-
-.timestamp time:nth-child(2) {
-  color: #0081cc; }
-
-.timeline {
-  float: right; }
-
-.imgBox {
-  background-color: #00a1e0;
-  border-radius: 25px;
-  padding: 4px 4px 4px 4px;
-  text-align: center;
-  border: 8px solid #a0dbfd; }
-  .imgBox img {
-    width: 60%; }
-
-.line {
-  background-color: #9fdbfe;
-  padding: 50px 1px 50px 1px; }
+  width: 50px; }
+  .boxLeft1 span {
+    color: #b4ccd9;
+    font-size: 10px; }
+  .boxLeft1 time {
+    color: #0081cc; }
+  .boxLeft1 img {
+    background-color: #00a1e0;
+    border-radius: 25px;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+    border: 8px solid #a0dbfd; }
 
 .boxCon {
   float: right;
   width: 600px; }
 
-.boxTop {
+.textTop {
   background-color: #45bff7; }
 
-.boxBottom {
+.textBottom {
   float: right;
   background-color: #45bff7; }
 
