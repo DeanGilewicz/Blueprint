@@ -1,5 +1,5 @@
 .container {
-  width: 1000px; }
+  width: 1022px; }
 
 .timeCon {
   float: left;
@@ -35,13 +35,21 @@
 
 .textCon {
   float: right;
-  width: 600px; }
+  width: 783px;
+  border-left: 10px solid #9fdbfe;
+  padding-left: 52px;
+  margin-top: 28px; }
+
+h2 {
+  margin: 0px; }
 
 .textTop {
-  background-color: #45bff7; }
+  font-family: "Lato", sans-serif;
+  background-color: #45bff7;
+  padding-left: 15px; }
 
 .textBottom {
-  float: right;
+  font-family: "Lato", sans-serif;
   background-color: #45bff7; }
 
 /*# sourceMappingURL=main.css.map */
