@@ -57,27 +57,25 @@ $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
   margin-top: 28px;
 
   p {
-    margin-top: 38px;
     font-size: 18px;
+    color: white;
     line-height: 26px;
+    margin-top: 38px;
+  }
+
+  h2 {
+    font-size: 29px;
+    letter-spacing: -0.7px;
+    color: white;
+    margin: 0px;
   }
 }
 
-h2 {
-  font-size: 29px;
-  letter-spacing: -0.7px;
-  color: white;
-  margin: 0px;
-}
 
-.textTop {
+.textTop, .textBottom {
   font-family: $font;
   background-color: hsla(199, 92%, 62%, 1);
-  padding-top: 38px;
-  padding-left: 38px;
-}
-
-.textBottom {
-  font-family: $font;
-  background-color: hsla(199, 92%, 62%, 1);
+  padding: 38px;
+  margin-bottom: 16px;
+  border-radius: 5px;
 }
