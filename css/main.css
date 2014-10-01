@@ -6,21 +6,25 @@
   width: 121px;
   margin: 25px 0px 0px 21px; }
 
-.boxTop, .boxBottom {
+.boxTop,
+.boxBottom {
   float: left;
   position: relative;
   width: 100%;
   font-family: "Lato", sans-serif; }
-  .boxTop span, .boxBottom span {
+  .boxTop span,
+  .boxBottom span {
     display: block;
-    color: #b4ccd9;
+    color: #d7d9e0;
     font-size: 16px;
     text-align: right; }
-  .boxTop time, .boxBottom time {
+  .boxTop time,
+  .boxBottom time {
     font-size: 47px;
-    color: #2eb9f5;
+    color: #45bff7;
     display: block; }
-  .boxTop img, .boxBottom img {
+  .boxTop img,
+  .boxBottom img {
     position: absolute;
     top: -9px;
     right: -67px;
@@ -33,7 +37,7 @@
 .boxBottom {
   margin-top: 320px; }
   .boxBottom time {
-    color: #058dd1; }
+    color: #0092d6; }
 
 .textCon {
   float: right;
@@ -41,18 +45,19 @@
   border-left: 10px solid #9fdbfe;
   padding-left: 52px;
   margin-top: 28px; }
-  .textCon p {
-    font-size: 18px;
-    color: white;
-    line-height: 26px;
-    margin-top: 38px; }
   .textCon h2 {
     font-size: 29px;
     letter-spacing: -0.7px;
     color: white;
     margin: 0px; }
+  .textCon p {
+    font-size: 18px;
+    color: white;
+    line-height: 26px;
+    margin-top: 38px; }
 
-.textTop, .textBottom {
+.textTop,
+.textBottom {
   font-family: "Lato", sans-serif;
   background-color: #45bff7;
   padding: 38px;
@@ -63,7 +68,8 @@
 .textBottom {
   background-color: #0092d6; }
 
-.textTop::after, .textBottom::after {
+.textTop::after,
+.textBottom::after {
   width: 0;
   height: 0;
   border-style: solid;
