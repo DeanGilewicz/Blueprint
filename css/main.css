@@ -55,6 +55,18 @@
   background-color: #45bff7;
   padding: 38px;
   margin-bottom: 16px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  position: relative; }
+
+.textTop::after, .textBottom::after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #42bcf5 transparent transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -10px; }
 
 /*# sourceMappingURL=main.css.map */
