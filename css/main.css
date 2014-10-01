@@ -1,16 +1,16 @@
-/* FONT */
 .container {
   width: 1000px; }
 
 .timeCon {
   float: left;
-  width: 118px;
-  margin: 28px 0px 0px 21px; }
+  width: 121px;
+  margin: 25px 0px 0px 21px; }
 
 .boxTop, .boxBottom {
   float: left;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  font-family: "Lato", sans-serif; }
   .boxTop span, .boxBottom span {
     display: block;
     color: #b4ccd9;
@@ -22,13 +22,16 @@
     display: block; }
   .boxTop img, .boxBottom img {
     position: absolute;
-    top: -12px;
-    right: -70px;
+    top: -9px;
+    right: -67px;
     background-color: #00a1e0;
     border-radius: 30px;
     padding: 10px;
     text-align: center;
     border: 8px solid #a0dbfd; }
+
+.boxBottom {
+  margin-top: 320px; }
 
 .textCon {
   float: right;

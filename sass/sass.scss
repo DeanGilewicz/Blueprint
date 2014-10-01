@@ -1,16 +1,8 @@
-/* FONT */
+// variables
 
 $font: 'Lato', sans-serif;
 $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
 
-// @mixin boxText {
-//   font-family: $font;
-//   color: $color1;
-// }
-
-// .boxTop {
-//   @include boxText;
-// }
 
 .container {
   width: 1000px;
@@ -18,14 +10,15 @@ $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
 
 .timeCon {
   float: left;
-  width: 118px;
-  margin: 28px 0px 0px 21px;
+  width: 121px;
+  margin: 25px 0px 0px 21px;
 }
 
 .boxTop, .boxBottom {
   float: left;
   position: relative;
   width: 100%;
+  font-family: $font;
 
   span {
     display: block;
@@ -42,14 +35,18 @@ $color1: hsla(0, 0%, 100%, 1)HSLA(0, 0%, 100%, 1);
 
   img {
     position: absolute;
-    top: -12px;
-    right: -70px;
+    top: -9px;
+    right: -67px;
     background-color: hsla(197, 100%, 44%, 1);
     border-radius: 30px;
     padding: 10px;
     text-align: center;
     border: 8px solid hsla(202, 96%, 81%, 1);
   }
+}
+
+.boxBottom {
+  margin-top: 320px;
 }
 
 .textCon {
