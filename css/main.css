@@ -39,6 +39,10 @@
   border-left: 10px solid #9fdbfe;
   padding-left: 52px;
   margin-top: 28px; }
+  .textCon p {
+    margin-top: 38px;
+    font-size: 18px;
+    line-height: 26px; }
 
 h2 {
   font-size: 29px;
