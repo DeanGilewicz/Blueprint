@@ -1,26 +1,36 @@
 /* FONT */
 .container {
-  width: 800px; }
+  width: 1000px; }
 
 .timeCon {
-  float: left; }
-
-.timestamp {
   float: left;
-  width: 50px; }
-  .timestamp span {
+  width: 118px;
+  margin: 28px 0px 0px 21px; }
+
+.boxTop, .boxBottom {
+  float: left;
+  position: relative;
+  width: 100%; }
+  .boxTop span, .boxBottom span {
+    display: block;
     color: #b4ccd9;
-    font-size: 10px; }
-  .timestamp time {
-    color: #0081cc; }
-  .timestamp img {
+    font-size: 16px;
+    text-align: right; }
+  .boxTop time, .boxBottom time {
+    font-size: 47px;
+    color: #0081cc;
+    display: block; }
+  .boxTop img, .boxBottom img {
+    position: absolute;
+    top: -12px;
+    right: -70px;
     background-color: #00a1e0;
-    border-radius: 25px;
-    padding: 4px 4px 4px 4px;
+    border-radius: 30px;
+    padding: 10px;
     text-align: center;
     border: 8px solid #a0dbfd; }
 
-.boxCon {
+.textCon {
   float: right;
   width: 600px; }
 
