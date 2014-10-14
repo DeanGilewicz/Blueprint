@@ -1,3 +1,3 @@
 ## Blueprint
 
-A web page created from a mock design using using SASS.
+A web layout from a mock design using SASS.
